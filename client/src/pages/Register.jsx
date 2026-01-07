@@ -1,7 +1,7 @@
 import { useState } from "react";
 import registerimage from "../assets/images/register.svg";
 import { useNavigate } from "react-router-dom";
-import { useAuth } from "../../store/auth_temp";
+import { useAuth } from "../../store/auth";
 import { toast } from "react-toastify";
 export const Register = ()=>{
     const [user,setUser] = useState({

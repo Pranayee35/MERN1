@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { useAuth } from "../../store/auth_temp"
+import { useAuth } from "../../store/auth"
 
 export const AdminContacts = ()=>{
     const {authorizationToken,API} = useAuth();

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import contactimg from "../assets/images/contact.svg";
-import { useAuth } from "../../store/auth_temp";
+import { useAuth } from "../../store/auth";
 const defaultContactForm = {
         username:"",
         email: "",

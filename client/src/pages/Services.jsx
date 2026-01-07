@@ -1,4 +1,4 @@
-import { useAuth } from "../../store/auth_temp";
+import { useAuth } from "../../store/auth";
 import servicesimg from "../assets/images/services.svg"
 export const Services = ()=>{
     const {services} = useAuth();

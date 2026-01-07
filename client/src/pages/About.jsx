@@ -1,5 +1,5 @@
 import aboutimg from "../assets/images/about.svg";
-import { useAuth } from "../../store/auth_temp";
+import { useAuth } from "../../store/auth";
 export const About = ()=>{
     
     const {user} = useAuth();
