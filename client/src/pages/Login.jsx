@@ -1,7 +1,7 @@
 import { useState } from "react";
 import loginimage from "../assets/images/login.svg";
 import { useNavigate } from "react-router-dom";
-import { useAuth } from "../../store/auth";
+import { useAuth } from "../../store/auth_temp";
 import {toast} from "react-toastify"
 export const Login = ()=>{
     const [user,setuser] = useState({

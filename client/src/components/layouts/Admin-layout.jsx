@@ -3,7 +3,7 @@ import { FaUser } from "react-icons/fa";
 import { IoMdContacts } from "react-icons/io";
 import { MdHomeRepairService } from "react-icons/md";
 import { FaHome } from "react-icons/fa";
-import { useAuth } from "../../../store/auth";
+import { useAuth } from "../../../store/auth_temp";
 export const AdminLayout = ()=>{
     const {user,isLoading} = useAuth();
     if(isLoading){

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom";
-import { useAuth } from "../../store/auth";
+import { useAuth } from "../../store/auth_temp";
 import {toast} from "react-toastify"
 export const AdminUpdate = ()=>{
     const [data,setData] = useState({
